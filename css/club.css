@@ -1,0 +1,205 @@
+h1 {
+  font-size: 3.5rem;
+  font-family: cursive;
+  font-weight: bold;
+  color: rgb(250, 138, 87);
+  text-align: center;
+  margin-top:8%;
+  margin-bottom: 4%;
+}
+
+.club {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 90rem;
+}
+
+.clubsBody {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.clubcard {
+  width: calc(33% - 0.2rem);
+  /*     margin: 30px 40px; */
+  cursor: pointer;
+  padding: 50px 40px;
+}
+
+.clubinfo {
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+}
+
+.clubfront,
+.clubback {
+  background-size: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  background-position: center;
+  -webkit-transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  -o-transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1),
+    -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  text-align: center;
+  /*     min-height: 300px; */
+  height: 400px;
+  color: #fff;
+  /*     font-size: 1rem; */
+}
+
+.clubback {
+  background: #cedce7;
+  background: -webkit-linear-gradient(45deg, #00cdac 0%, #8ddad5 100%);
+  background: -o-linear-gradient(45deg, #00cdac 0%, #8ddad5 100%);
+  background: linear-gradient(45deg, #00cdac 0%, #8ddad5 100%);
+}
+
+.clubfront:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  content: "";
+  display: block;
+  opacity: 0.01;
+  background-color: #000;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 10px;
+}
+.clubinfo:hover .clubfront,
+.clubinfo:hover .clubback {
+  -webkit-transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  -o-transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1),
+    -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+
+.clubback {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.clubinner {
+  -webkit-transform: translateY(-50%) translateZ(60px) scale(0.94);
+  transform: translateY(-50%) translateZ(60px) scale(0.94);
+  top: 50%;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  padding: 1rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: 1px solid transparent;
+  -webkit-perspective: inherit;
+  perspective: inherit;
+  z-index: 2;
+  text-align: justify;
+}
+
+.clubinfo .clubback {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.clubinfo .clubfront {
+  -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.clubinfo:hover .clubback {
+  -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.clubinfo:hover .clubfront {
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.clubinner p {
+  font-size: 0.9rem;
+      margin-bottom: 0px;
+  position: relative;
+  padding: 0px 30px;
+}
+
+.clubfront .clubinner p:after {
+  content: "";
+  width: 4rem;
+  height: 2px;
+  position: absolute;
+  background: #fafbfc;
+  display: block;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: -0.75rem;
+}
+.clubinner h2 {
+  color: black;
+  font-size: 30px;;
+  margin: 5px 0px;
+  text-align: center;
+}
+
+.c-s-logo {
+  text-align: center;
+}
+.fab {
+  color:black;
+  font-size:30px;
+  padding:5px 20px;
+}
+
+.fab:hover{
+  transform:scale(1.1);
+}
+
+
+@media screen and (max-width: 64rem) {
+  .clubcard {
+    width: calc(33.333333% - 2rem);
+  }
+}
+
+@media screen and (max-width: 48rem) {
+  .clubcard {
+    width: calc(50% - 2rem);
+  }
+}
+
+@media screen and (max-width: 32rem) {
+  .clubcard {
+    width: 100%;
+    margin: 0 0 2rem 0;
+  }
+}
+

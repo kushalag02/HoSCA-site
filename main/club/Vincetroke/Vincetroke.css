@@ -1,0 +1,190 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Navigation */
+
+.nav{
+    background-color:rgb(0, 0, 0);
+    width:100%;
+    display:flex;
+    top:0%;
+    position:fixed;
+    z-index:99;
+}
+.h_logo{
+    display:inline-block;
+    padding:auto;
+}
+.h_logo img {
+    border-radius: 50%;
+    padding: 20px;
+    height: 40px;
+    width: auto;
+}
+.hosca{
+    display:inline-block;
+    font-size:2rem;
+    padding:20px;
+    font-weight:bold;
+    color:bisque
+}
+
+
+.nav ul{
+    display:flex;
+    margin-left:300px;
+}
+
+.nav ul li{
+    display:flex;
+    padding: 10px;
+    list-style:none;
+    margin-right: 20px;
+    float: right;
+    position: relative;
+}
+
+.nav ul li a{
+    padding:20px 10px;
+    color:white;
+    text-decoration: none;
+    font-size: 1.15rem;
+}
+
+.nav ul li a:hover{
+    color: #FFE4C4;
+    text-decoration:underline;
+}
+
+/*submenu*/
+
+.submenu{
+    display: none;
+    position:absolute;
+    /*     left:0; */
+    top:100%;
+    background:rgba(5, 5, 5);
+    border-radius:10px;
+    z-index: 1;
+}
+.nav ul li:hover .submenu {
+    display:block;
+
+
+}
+
+.submenu ul{
+    display:block;
+    margin:0px;
+}
+
+.submenu ul li{
+    width:auto;
+    padding:0px;
+
+}
+
+.submenu ul li a{
+    color:rgb(239, 225, 225);
+    padding:10px;
+    font-size:1.1rem;
+}
+
+/* contents */
+  
+.logo{
+    background: url(Vincetroke.images/11.png) left no-repeat ,url(Vincetroke.images/12.png) right no-repeat;
+    background-size: 600px ,600px;
+    
+    
+    float: initial;
+    text-align: center;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 150px;
+    
+    margin-bottom: 5px;
+    z-index: 3;
+    
+}
+/*By mistake , I made the webpage at 67% zoom in chrome browser , so this is the coreection for it .*/ 
+.main_content{
+    zoom: 0.67;
+}
+body{
+    background-color: beige;
+    z-index: 1;
+}
+.para::first-letter{
+    font-size:100px ;
+    font-style: bold;
+    z-index: 3;
+    
+}
+.para{
+    
+    background: url(Vincetroke.images/NAQSH.jpg ) left no-repeat , url(Vincetroke.images/v1.png) center no-repeat ,url(Vincetroke.images/EUPHORIA.jpg) right no-repeat;
+    background-size: 500px,800px ,500px;
+    opacity: 1;
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+    line-height: 80px;
+    z-index: 3;
+}
+.para p{
+    font-weight:900;
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+    margin-left: 490px;
+    margin-right: 490px;
+    margin-top: 30px;
+    word-spacing: 22px;
+    color:black;
+    
+}
+.end{
+    font-style:normal;
+    font-weight: bolder;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 55px;
+    z-index: 3;
+}
+.smh{
+    display: flex;
+    z-index: 3;
+}
+.ilogo{
+    margin-top: 28px;
+    margin-left: 941px;
+    margin-right: 130px;
+    margin-bottom: 5px;
+    z-index: 3;
+}
+.flogo{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    z-index: 3;
+}
+.asd{
+    color:red;
+    font-weight: 1000;
+    font-size: 70px;
+    z-index: 3;
+}
+.image{
+    display: flex;
+}
+
+/* footer  */
+
+.foot{
+    background-color: rgba(0, 0, 0, 0.681);
+    height:250px;
+    color:white;
+}
