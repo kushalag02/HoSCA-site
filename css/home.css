@@ -55,17 +55,12 @@ font-size:2.2rem;
 }
 }
 
-.btn{
-  background:transparent;
-  border:2px solid grey;
-  border-radius:4px;
-  padding:10px;
-  text-align: center;
-  color:white;
-  justify-content: center;
-}
 
 /* about */
+#about_hosca{
+  /* background-color: azure; */
+margin-top: 200px;
+}
 #about{
   background-color: aliceblue;
   margin:100px;

@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body{
+    background-color:rgb(10, 10, 10);
+    background-image: url("");
+    background-repeat: no-repeat;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.team_container{
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.text1{
+    color: white;
+    font-size: 45px;
+    font-family: 'Lora', serif;
+    /* font-weight: bolder; */
+    font-weight:bold;
+    text-decoration: underline;
+    /* text-transform: uppercase; */
+    text-align: center;
+    margin-top: 15px;
+}
+
+.text{
+    color: white;
+    font-size: 45px;
+    font-family: 'Lora', serif;
+    /* font-weight: bolder; */
+    font-weight:lighter;
+    /* text-decoration: underline; */
+    /* text-transform: uppercase; */
+    text-align: center;
+}
+
+.row1{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    justify-items: center;
+
+}
+.row{
+    width: 78%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    justify-items: center;
+
+}
+
+.profile-card{
+    background-color:white;
+    width: 300px;
+    height: 360px;
+    margin: 20px 20px 10px 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px  rgb(65, 77, 15);
+    margin:30px auto;
+}
+
+.profile-card1{
+    background-color:white;
+    width: 320px;
+    height: 380px;
+    margin: 20px 20px 10px 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px  rgb(65, 77, 15);
+    margin:50px 0px;
+}
+/* .profile-card:hover{
+    background-color: rgb(227, 180, 219);
+}
+.profile-card1:hover{
+    background-color:  rgb(180, 193, 227);
+} */
+.profile-content1{
+    padding: 15px;
+}
+
+.profile-image1{
+    text-align: center;
+}
+.desc1{
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 22px;
+    color:rgb(17, 10, 155);
+    font-weight: bolder; 
+}
+
+.btn-div1{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.btn:hover{
+    background-color:  rgb(168, 209, 235);
+    width: 170px;
+}
+.profile-content{
+    padding: 15px;
+}
+img{
+    width: 140px;
+    height: 150px;
+    border-radius: 150px;
+}
+
+.profile-image{
+    text-align: center;
+}
+.desc{
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    text-align: center;
+    font-size: 25px;
+
+    color:rgb(4, 30, 4);
+        
+    font-weight: bolder;
+}
+.descx{
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    text-align: center;
+    font-size: 20.1px;
+
+    color:rgb(4, 30, 4);
+        
+    font-weight: bolder;
+}
+.descy{
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    text-align: center;
+    font-size: 24.9px;
+
+    color:rgb(4, 30, 4);
+        
+    font-weight: bolder;
+}
+
+.btn-div{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.btn{
+    background-color:rgb(185, 237, 231);
+    color: black;
+    width: 150px;
+    cursor: pointer;
+    height: 22px;
+    font-size: 17px;
+    font-weight: 600px;
+    box-shadow: 3px 3px 3px 3px rgb(8, 78, 8);
+    border-radius: 3px;
+    outline: none;
+       
+    border: none;
+}
+.social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+}
+canvas{
+	display:block;
+	vertical-align:bottom !important;
+}
+
+#particles-js{
+	width:570vh;
+	height:100%;
+    z-index: 1000;
+}
+.team-section{
+    position: absolute;
+    top: 0;
+}
+
+/* i{
+    position: relative;
+    top: 2.6px;
+} */
+.profile-card1{
+    background-color:white;
+    width: 320px;
+    height: 380px;
+    margin: 20px 20px 10px 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px  rgb(65, 77, 15);
+    margin:30px auto;
+}
+.profile-card:hover{
+    /* background-color: rgb(227, 180, 219); */
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    box-shadow: 0 24px 36px white,
+    0 24px 46px var(--box-shadow-color);
+}
+.profile-card:hover.overlay {
+    transform: scale(4) translateZ(0);
+}
+.profile-card1:hover{
+    /* background-color: rgb(227, 180, 219); */
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    box-shadow: 0 24px 36px white,
+    0 24px 46px var(--box-shadow-color);
+}
+.profile-card1:hover.overlay {
+    transform: scale(4) translateZ(0);
+}
+i{
+    position: relative;
+    top: 2.6px;
+}

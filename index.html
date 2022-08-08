@@ -27,14 +27,15 @@
     />
     <!-- MDB -->
     <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="css/nav.css" />
     <link rel="stylesheet" href="css/home.css" />
-    <link rel="stylesheet" href="css/main.css" />
+    
 
   </head>
   <body>
     <!-- navigation -->
     <header>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark navbar-scroll">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img
@@ -51,8 +52,8 @@
           class="navbar-toggler"
           type="button"
           data-mdb-toggle="collapse"
-          data-mdb-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
+          data-mdb-target="#navbarRightAlignExample"
+          aria-controls="navbarRightAlignExample"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
@@ -71,9 +72,28 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Events</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Committee</a>
+        <!-- Navbar dropdown -->
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Committee
+          </a>
+          <!-- Dropdown menu -->
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li>
+              <a class="dropdown-item" href="committee.html" >Gymkhana Cultural Committee</a>
             </li>
+            <li>
+              <a class="dropdown-item" href="developers.html">HoSCA Club Members</a>
+            </li>
+          </ul>
+        </li>
           </ul>
           <!-- Left links -->
         </div>
@@ -88,14 +108,13 @@
       <div class="wel-contents">
         <h1>Welcome To HOSCA</h1>
         <h3>The House Of Socio-Cultural Affairs</h3>
-        <!-- <button class="btn"><a href="#about"> About Us </a></button> -->
       </div>
     </div>
-    <!-- about  -->
+  <!-- about  -->
     <div id="about" class="">
-      <h1>About Hosca</h1>
+      <h1>About HoSCA</h1>
       <p>
-        HoSCA - House of socio-cultural Affairs is an organ of Gymkhana body
+        HoSCA - House of Socio-Cultural Affairs is an organ of Gymkhana body
         that takes the responsibility of the cultural and social activities of
         IIT Patna. It Organises numerous activities ranging from the Nebula-
         welcoming party of freshers to Reverberance - the festival of lights
@@ -104,7 +123,7 @@
         the people with different kinds of talents through all the clubs
         namely Exousia - the dance club, Aria - the singing club, Yavanika -
         the dramatics club, Hoot - the oratory talents club, vincetroke - the
-        drawing club, Pixxel - the photography club and their regular events
+        drawing club, Pixxel - the photography club and their regular events.
       </p>
     </div>
     <div id="events">
