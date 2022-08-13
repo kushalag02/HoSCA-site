@@ -28,13 +28,14 @@
 
     <!-- navigation -->
     <header>
-      <nav class="navbar fixed-top navbar-expand-lg navbar-dark navbar-fixed-top">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark navbar-scroll">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img
-              src="img/Hosca_logo.png"
+              src="img/hosca.jpg"
               class="rounded-circle"
-              height="50"
+              height="33"
+              background="white"
               alt="Hosca Logo"
               loading="lazy"
             />
@@ -44,8 +45,8 @@
             class="navbar-toggler"
             type="button"
             data-mdb-toggle="collapse"
-            data-mdb-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
+            data-mdb-target="#navbarRightAlignExample"
+            aria-controls="navbarRightAlignExample"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
@@ -56,17 +57,37 @@
             <!-- Left links -->
             <ul class="navbar-nav ms-auto me-5 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="club.html">Clubs</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Events</a>
+  
+          <!-- Navbar dropdown -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-mdb-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Committee
+            </a>
+            <!-- Dropdown menu -->
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <a class="dropdown-item" href="committee.html" >Gymkhana Cultural Committee</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Committee</a>
+              <li>
+                <a class="dropdown-item" href="developers.html">HoSCA Club Members</a>
               </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Events</a>
+          </li>
             </ul>
             <!-- Left links -->
           </div>
@@ -74,7 +95,7 @@
         </div>
         <!-- Container wrapper -->
       </nav>
-    </header>
+      <!-- navigation -->
 <section>
   <!-- club card  -->
   <div class="club">
