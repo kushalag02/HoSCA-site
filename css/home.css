@@ -57,10 +57,7 @@ font-size:2.2rem;
 
 
 /* about */
-#about_hosca{
-  /* background-color: azure; */
-margin-top: 200px;
-}
+
 #about{
   background-color: aliceblue;
   margin:100px;
@@ -69,19 +66,44 @@ margin-top: 200px;
   height:500px;
   padding-top:20px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
+  opacity:0;
 }
 #about h1{
-  font-size:2rem;
+  font-size:40px;
+  font-family:
+  Georgia, 'Times New Roman', Times, serif;
   margin-top: 20px;
   text-align: center;
+  color: rgba(0,0,0,0.8);
+  font-weight: 600;
 }
 #about p{
   display:flex;
-  flex-direction: row;
-  padding:50px 150px;
-  font-size:1.2rem;
+  padding:50px 80px;
+  font-size:17px;
   text-align:justify;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-bottom: 0px;
+}
+.about-contents{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.carousel-item{
+  position:initial;
+}
+.carousel-item img{
+  padding-right: 67px;
+  height: 250px;
+}
+.carousel-control-next{
+  padding-right: 100px;
+}
+.about-btn{
+  padding-block-start: 20px;
 }
 
 #events h1{
@@ -93,10 +115,8 @@ margin-top: 200px;
 .events-contents{
 background: #ebfcfc;
 margin:100px;
-display:grid;
-grid-template-columns:400px 500px;
-grid-column-gap:100px;
-box-shadow: 2px 5px 10px 8px #464646;
+display:flex;
+box-shadow: 2px 4px 4px 2px #464646;
 padding:50px;
 height:600px;
 border-radius:20px;
