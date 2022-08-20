@@ -82,9 +82,10 @@
 }
 
 .footer-distributed .footer-center ul li{
-	list-style: none;
+	list-style-type: none;
 	padding: 5px 0px;
 	font-size: larger;
+	margin-left: -24px;
 }
 
 .footer-distributed .footer-center ul li a:hover{
