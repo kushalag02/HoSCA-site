@@ -134,7 +134,7 @@
 }
 
 #events h1 {
-	font-size: 40px;
+	font-size: 35px;
 	font-family:
 		Georgia, 'Times New Roman', Times, serif;
 	margin-top: 20px;
@@ -300,7 +300,51 @@
 	-o-transform: translateY(0);
 	transform: translateY(0);
 }
-
+@media screen and (max-width: 800px) {
+	.item{
+		width: 80%;
+		margin-left: 10%;
+	}
+	.card{
+		display: flex;
+		flex-direction: column;
+	}
+	.img{
+		width: 60%;
+		margin-left: 20%;
+	}
+	.info{
+		width: 100%;
+	}
+	.info{
+		margin:0;
+	}
+}
+@media screen and (max-width: 500px) {
+	.item{
+		width: 100%;
+		margin-left: 0;
+	}
+	.card{
+		display: flex;
+		flex-direction: column;
+	}
+	.img{
+		width:100%;
+		margin: 0;
+	}
+	.info{
+		width: 100%;
+		padding-left: 2%;
+	}
+	.info h2{
+		margin: 0;
+	}
+	.info p{
+		margin: 0;
+	}
+}
+/* 
 @media screen and (max-width: 900px) {
 	.card {
 		max-width: 70%;
@@ -361,7 +405,7 @@
 		width: 59%;
 		padding-left: 5%;
 	}
-}
+} */
 
 /* Responsive Design */
 
