@@ -57,3 +57,7 @@ $(function () {
     }
 
 });
+
+const hosca_nav = document.getElementsById("hosca_nav");
+hosca_nav.innerHTML = "HoSCA";
+

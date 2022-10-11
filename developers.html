@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Developers</title>
+    <title>Hosca-Developers</title>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -25,15 +25,14 @@
 
 <body>
     <!-- navigation -->
-    <!-- <header> -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark navbar-scroll">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
                 <img src="img/hosca.jpg" class="rounded-circle" height="33" background="white" alt="Hosca Logo"
                     loading="lazy" />
             </a>
-            <a class="navbar-brand" href="#">
-                <p class="fs-3 fw-bolder mb-0">
+            <!-- <a class="navbar-brand" href="#"> -->
+                <p class="fs-3 fw-bolder mb-0" id="hosca_nav">
                     House of Socio-Cultural Affairs
                 </p>
             </a>
@@ -47,30 +46,29 @@
                 <!-- Left links -->
                 <ul class="navbar-nav ms-auto me-5 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="club.html">Clubs</a>
                     </li>
-
                     <!-- Navbar dropdown -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-mdb-toggle="dropdown" aria-expanded="false">
-                            Committee
-                        </a>
-                        <!-- Dropdown menu -->
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li>
-                                <a class="dropdown-item" href="committee.html">Gymkhana Cultural Committee</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="developers.html">HoSCA Club Members</a>
-                            </li>
-                        </ul>
-                    </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown"
+              aria-expanded="false">
+              Committee
+            </a>
+            <!-- Dropdown menu -->
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <a class="dropdown-item" href="committee.html">Gymkhana Cultural Committee</a>
+              </li>
+              <li>
+                <a class="dropdown-item active" href="developers.html">HoSCA Club Members</a>
+              </li>
+            </ul>
+          </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Events</a>
+                        <a class="nav-link" href="events.html">Events</a>
                     </li>
                 </ul>
                 <!-- Left links -->
@@ -80,7 +78,7 @@
         <!-- Container wrapper -->
     </nav>
     <!-- navigation -->
-    <!-- </header> -->
+
     <!-- Page Haeding -->
     <div class="page-title">
         <h1>HOSCA Club Members</h1>
@@ -360,6 +358,7 @@
     </footer>
 
     <script src="myjs/background.js"></script>
+    <script src="myjs/nav.js"></script>
 </body>
 
 </html>
