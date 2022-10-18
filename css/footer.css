@@ -12,7 +12,7 @@
 	text-align: left;
 	font: bold 16px sans-serif;
 	padding: 50px 50px 0px 50px;
-	margin-top: 80px;
+	margin-top: 50px;
 }
 
 .footer-distributed .footer-left,
@@ -169,4 +169,33 @@
 		margin-left: 0;
 	}
 
+}
+
+@media (max-width: 500px) {
+	.footer-center-p{
+		display: none;
+	}
+	.footer-links{
+		display: none;
+	}
+	.footer-left img{
+		display: none;
+	}
+	.footer-distributed{
+		margin-top:20px;
+		padding: 20px 20px 0 20px;
+	}
+	.footer-distributed h3{
+		font-size: 24px;
+	}
+	.footer-distributed .footer-company-about span{
+		font-size: 20px;
+		margin: 0;
+	}
+	.footer-distributed .icon i{
+		margin: 0px;
+	}
+	.footer-distributed .footer-icons{
+		margin-top: 0px;
+	}
 }
