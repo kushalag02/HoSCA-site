@@ -148,3 +148,13 @@ body {
     color: #1369ce;
     background-color: #f7f5ec;
 }
+
+@media screen and (max-width: 650px) {
+    h1{
+        font-size: 26px;
+        margin-top: 60px;
+    }
+    h2{
+        font-size: 26px;
+    }
+}
