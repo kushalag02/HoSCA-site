@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@800&family=Poppins&family=Roboto&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open Sans');
 h1 {
   font-size: 3.5rem;
-  font-family: cursive;
+  font-family: Poppins;
   font-weight: bold;
   color: rgb(250, 138, 87);
   text-align: center;
-  margin-top:8%;
-  margin-bottom: 4%;
+  margin-top: 8%;
+  margin-bottom: 2%;
 }
 
 .club {
@@ -83,6 +85,7 @@ h1 {
   backface-visibility: hidden;
   border-radius: 10px;
 }
+
 .clubinfo:hover .clubfront,
 .clubinfo:hover .clubback {
   -webkit-transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
@@ -147,7 +150,8 @@ h1 {
 
 .clubinner p {
   font-size: 1rem;
-      margin-bottom: 0px;
+  font-family: 'Open Sans';
+  margin-bottom: 0px;
   position: relative;
   padding: 0px 30px;
 }
@@ -164,9 +168,12 @@ h1 {
   margin: 0 auto;
   bottom: -0.75rem;
 }
+
 .clubinner h2 {
   color: black;
-  font-size: 30px;;
+  font-size: 30px;
+  font-family: 'Open Sans';
+  font-weight: 600;
   margin: 5px 0px;
   text-align: center;
 }
@@ -174,14 +181,15 @@ h1 {
 .c-s-logo {
   text-align: center;
 }
+
 .fab {
-  color:black;
-  font-size:30px;
-  padding:5px 20px;
+  color: black;
+  font-size: 30px;
+  padding: 5px 20px;
 }
 
-.fab:hover{
-  transform:scale(1.1);
+.fab:hover {
+  transform: scale(1.1);
 }
 
 
@@ -199,52 +207,58 @@ h1 {
 }
 
 @media screen and (max-width: 700px) {
-  h1{
+  h1 {
     font-size: 3rem;
-    margin-top:12%;
+    margin-top: 12%;
   }
+
   .clubcard {
     width: calc(70% - -1rem);
-   
+
   }
 }
 
 @media screen and (max-width: 480px) {
-  h1{
+  h1 {
     font-size: 2.5rem;
-    margin-top:14%;
+    margin-top: 14%;
   }
+
   .clubcard {
     width: calc(50% - -10rem);
     margin: 0 0 2rem 0;
     padding: 5px 10px;
   }
+
   .clubinner p {
     padding: 0 10px;
   }
 }
 
 @media screen and (max-width: 380px) {
-  h1{
+  h1 {
     font-size: 2rem;
-    margin-top:18%;
+    margin-top: 18%;
   }
+
   .clubcard {
     width: 100%;
     margin: 0 0 0rem 0;
     padding: 5px 10px;
   }
-  .clubfront{
+
+  .clubfront {
     height: 340px;
   }
-  .clubback{
+
+  .clubback {
     height: 340px;
   }
 }
 
 /* Custom Scrollbar */
 
-.scrollable{
+.scrollable {
   overflow-y: auto;
   max-height: 250px;
 }

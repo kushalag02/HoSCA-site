@@ -12,7 +12,7 @@
 .wel-contents {
 	color: rgb(255, 255, 255);
 	position: absolute;
-	font-family: cursive;
+	font-family: Poppins;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -83,8 +83,7 @@
 
 #about h1 {
 	font-size: 40px;
-	font-family:
-		Georgia, 'Times New Roman', Times, serif;
+	font-family: Poppins;
 	margin-top: 20px;
 	text-align: center;
 	color: rgba(0, 0, 0, 0.8);
@@ -94,6 +93,7 @@
 #about p {
 	display: flex;
 	padding: 50px 80px;
+	font-family: 'Open Sans';
 	font-size: 17px;
 	text-align: justify;
 	flex-wrap: wrap;
@@ -135,13 +135,12 @@
 }
 
 #events h1 {
-	font-size: 35px;
-	font-family:
-		Georgia, 'Times New Roman', Times, serif;
+	font-size: 40px;
+	font-family: Poppins;
 	margin-top: 20px;
 	text-align: center;
 	color: rgba(0, 0, 0, 0.8);
-	font-weight: 600;
+	font-weight: bold;
 }
 
 .cd-slider {
@@ -205,11 +204,14 @@
 }
 
 .info h2 {
+	font-family: 'Open Sans';
+	font-weight: 600;
 	font-size: 2rem;
 	margin-bottom: 3rem;
 }
 
 .info p {
+	font-family: 'Open Sans';
 	font-size: 17px;
 	margin-bottom: 40px;
 }

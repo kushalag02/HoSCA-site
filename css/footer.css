@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@800&family=Poppins&family=Roboto&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open Sans');
+
 @media (max-height:800px) {
 	footer {
 		position: static;
@@ -34,7 +37,8 @@
 
 .footer-distributed h3 {
 	color: #ffffff;
-	font: normal 36px 'Cookie', cursive;
+	font: normal 36px 'Poppins', cursive;
+	font-weight: 500;
 	margin: 0;
 }
 
@@ -46,6 +50,7 @@
 
 .footer-distributed h3 span {
 	color: #e0ac1c;
+	font-weight: 600;
 }
 
 /* Footer links */
@@ -81,14 +86,14 @@
 	color: #ffffff;
 	vertical-align: middle;
 	margin: 0;
-	font-family: 'Preahvihear', sans-serif;
-	font-weight: bold;
+	font-family: Poppins;
+	font-weight: 500;
 	font-size: xx-large;
 }
 
 .footer-distributed .footer-center ul li {
 	list-style-type: none;
-	padding: 5px 0px;
+	padding: 2px 0px;
 	font-size: larger;
 	margin-left: -24px;
 }
@@ -98,6 +103,7 @@
 }
 
 .footer-distributed .footer-center a {
+	font-family: 'Open Sans';
 	color: #e0ac1c;
 	text-decoration: none;
 	;
@@ -131,7 +137,7 @@
 	display: block;
 	color: #ffffff;
 	font-size: 29px;
-	font-family: 'Preahvihear', sans-serif;
+	font-family: Poppins;
 	font-weight: bold;
 	margin-bottom: 20px;
 }
