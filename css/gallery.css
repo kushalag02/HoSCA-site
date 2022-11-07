@@ -45,6 +45,8 @@
 
 .gallery .gallery-filter .filter-item {
 	color: #fff;
+	font-family: 'Open Sans';
+	font-weight: 600;
 	font-size: 18px;
 	text-transform: uppercase;
 	display: inline-block;

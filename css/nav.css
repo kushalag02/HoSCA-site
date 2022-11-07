@@ -10,11 +10,12 @@
 }
 .navbar p{
 	color:lightyellow;
-	font-family: 'Zilla Slab', serif;
+	font-family: Poppins;
 }
 .navbar ul{
-    font-size:18px;
-	font-weight:500;
+	font-family: 'Open Sans';
+    font-size: 18px;
+	font-weight: 500;
     margin-bottom: 0px;
 }
 .navbar ul li{
