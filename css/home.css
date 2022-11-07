@@ -39,7 +39,7 @@
 	animation: wel2 8s infinite ease-in-out;
 	border-right: 3px solid rgb(246, 226, 190);
 	animation-delay: 2s;
-
+	margin-left: 80px;
 }
 
 @keyframes wel {
