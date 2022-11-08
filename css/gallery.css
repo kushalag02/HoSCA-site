@@ -14,7 +14,7 @@
 
 /*Gallery main content*/
 .container {
-	width: 100%;
+	width: 100vw;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -22,9 +22,23 @@
 }
 
 .gallery-content {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-	grid-gap: 30px;
+	/* display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap: 30px; */
+	width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-items: center;
+	
+}
+
+.gallery-item {
+	margin: 10px 5px;
+	width: 220px;
+	height: 220px;
 }
 
 .gallery img {
