@@ -1,25 +1,27 @@
-.card{
+.card {
     margin: 80px;
 }
 
-#recent{
+#recent {
     text-align: center;
-    margin:35px 0px -30px 0px;
+    margin: 35px 0px -30px 0px;
 }
 
-#Our_events{
-    margin:40px 0px -30px 0px;
+#Our_events {
+    margin: 40px 0px -30px 0px;
     text-align: center;
 }
 
-h1{
+h1 {
     font-family: 'Poppins';
     font-weight: bold;
     color: black;
 }
 
-@media (max-height:1000px){
-    #Our_events{
-        margin-top: 70px;
-    }
+#Our_events {
+    margin-top: 80px;
 }
+
+/* @media (max-width:1000px){
+    
+} */
