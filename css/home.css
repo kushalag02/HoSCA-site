@@ -21,25 +21,28 @@
 
 .wel-contents h1 {
 	position: relative;
-	letter-spacing: 3px;
 	text-align: center;
+	letter-spacing: 3px;
 	animation: wel 3s 1;
 	font-size: 4rem;
+	overflow: hidden;
+	white-space: nowrap;
 }
 
 .wel-contents h3 {
 	/* visibility: hidden; */
 	font-size: 1.8rem;
 	text-align: center;
+	/* letter-spacing: 10px; */
 	/* animation: wel2 3s 1 ease-out; */
 	color: rgb(246, 226, 190);
-	width: 0ch;
+	width: 100%;
 	overflow: hidden;
 	white-space: nowrap;
 	animation: wel2 8s infinite ease-in-out;
 	border-right: 3px solid rgb(246, 226, 190);
-	animation-delay: 2s;
-	margin-left: 80px;
+	animation-delay: 1s;
+	/* margin-left: 80px; */
 }
 
 @keyframes wel {
@@ -59,7 +62,7 @@
 	}
 
 	50% {
-		width: 30ch;
+		width: 100%;
 	}
 }
 
@@ -132,12 +135,14 @@
 /*events*/
 #events {
 	background: #ffffff;
+	padding-top: 30px
 }
 
 #events h1 {
+	position: relative;
+	margin-top: 90px;
 	font-size: 40px;
 	font-family: Poppins;
-	margin-top: 20px;
 	text-align: center;
 	color: rgba(0, 0, 0, 0.8);
 	font-weight: bold;
@@ -172,10 +177,11 @@
 
 .card {
 	display: flex;
+	margin-top: 30px;
 	flex-direction: row;
 	background-color: aliceblue;
 	position: absolute;
-	top: 50%;
+	top: 40%;
 	left: 50%;
 	-webkit-transform: translate(-50%, -50%);
 	-moz-transform: translate(-50%, -50%);
