@@ -183,7 +183,7 @@ img{
 }
 canvas{
 	display:block;
-	vertical-align:bottom !important;
+	vertical-align: bottom;
 }
 
 #particles-js{
