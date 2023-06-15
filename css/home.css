@@ -264,6 +264,39 @@
 	visibility: hidden;
 }
 
+/* annual report */
+
+.hosca-report {
+	display: flex;
+	margin-top: 30px;
+	margin-bottom: 80px;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding-top: 10px;
+	justify-content: center;
+	align-items: center;
+	box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 15px;
+}
+
+/* .hosca-report:hover {
+	background-color: rgba(10, 10, 10, 0.3);
+	box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 15px;
+} */
+
+.hosca-report a {
+	display: flex;
+	cursor: pointer;
+}
+
+.hosca-report p {
+	padding: 10px;
+	font-size: 1.6rem;
+	padding-right: 20px;
+	font-weight: bold;
+	font-family: 'Open Sans';
+	color: rgba(0, 0, 0, 0.8);
+}
+
 /* Transitions 
   ----------------------------------*/
 .card img,
@@ -331,6 +364,11 @@
 	.info {
 		margin: 0;
 	}
+
+	.hosca-report p {
+		padding-top: 10px;
+		font-size: 18px;
+	}
 }
 
 @media screen and (max-width: 500px) {
@@ -360,6 +398,11 @@
 
 	.info p {
 		margin: 0;
+	}
+
+	.hosca-report p {
+		padding-top: 10px;
+		font-size: 14px;
 	}
 }
 
@@ -496,6 +539,11 @@
 		font-size: 12.5px;
 		padding: 20px 30px;
 	}
+
+	.hosca-report p {
+		padding-top: 10px;
+		font-size: 11px;
+	}
 }
 
 
@@ -504,7 +552,7 @@
 	width: 100%;
 	height: auto;
 } */
-.v1{
+.v1 {
 	width: 100%;
 	height: 100%;
 	display: flex;
@@ -512,15 +560,16 @@
 	align-items: center;
 	padding: 20px;
 }
-.v2{
+
+.v2 {
 	width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: auto;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: auto;
 }
 
-.v2 iframe{
+.v2 iframe {
 	padding: 20px;
 }
