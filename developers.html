@@ -1,784 +1,774 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hosca-Developers</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Changa:wght@200&family=M+PLUS+1+Code:wght@300&family=Mukta:wght@300;400&family=Preahvihear&family=Zilla+Slab:wght@300&display=swap" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hosca-Developers</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Changa:wght@200&family=M+PLUS+1+Code:wght@300&family=Mukta:wght@300;400&family=Preahvihear&family=Zilla+Slab:wght@300&display=swap"
+            rel="stylesheet">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- Google Fonts Roboto -->
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+        <!-- Google Fonts Roboto -->
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
 
-    <!-- MDB -->
-    <link rel="stylesheet" href="css/mdb.min.css" />
-    <link rel="stylesheet" href="css/nav.css">
-    <link rel="stylesheet" href="css/footer.css" />
+        <!-- MDB -->
+        <link rel="stylesheet" href="css/mdb.min.css" />
+        <link rel="stylesheet" href="css/nav.css">
+        <link rel="stylesheet" href="css/footer.css" />
 
-    <link rel="stylesheet" href="css/committee.css" />
+        <link rel="stylesheet" href="css/committee.css" />
 
-</head>
+    </head>
 
-<body>
-    <!-- navigation -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark navbar-scroll">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
-                <img src="img/hosca.jpg" class="rounded-circle" height="63" background="white" alt="Hosca Logo"
-                    loading="lazy" />
-            </a>
-            <!-- <a class="navbar-brand" href="#"> -->
-            <p class="fs-3 fw-bolder mb-0" id="hosca_nav">
-                House of Socio-Cultural Affairs
-            </p>
-            </a>
-            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
-                data-mdb-target="#navbarRightAlignExample" aria-controls="navbarRightAlignExample" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
-            </button>
-            <!-- Collapsible wrapper -->
-            <div class="collapse navbar-collapse" id="navbarRightAlignExample">
-                <!-- Left links -->
-                <ul class="navbar-nav ms-auto me-5 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+    <body>
+        <!-- navigation -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark navbar-scroll">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/hosca.jpg" class="rounded-circle" height="63" background="white" alt="Hosca Logo"
+                        loading="lazy" />
+                </a>
+                <!-- <a class="navbar-brand" href="#"> -->
+                <p class="fs-3 fw-bolder mb-0" id="hosca_nav">
+                    House of Socio-Cultural Affairs
+                </p>
+                </a>
+                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarRightAlignExample" aria-controls="navbarRightAlignExample"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse" id="navbarRightAlignExample">
+                    <!-- Left links -->
+                    <ul class="navbar-nav ms-auto me-5 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="club.html">Clubs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
+                        <!-- Navbar dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-mdb-toggle="dropdown" aria-expanded="false">
+                                Committee
+                            </a>
+                            <!-- Dropdown menu -->
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="committee.html">Gymkhana Cultural Committee</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item active" href="developers.html">HoSCA Club Members</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="events.html">Events</a>
+                        </li>
+                    </ul>
+                    <!-- Left links -->
+                </div>
+                <!-- Collapsible wrapper -->
+            </div>
+            <!-- Container wrapper -->
+        </nav>
+        <!-- navigation -->
+
+        <!-- Page Haeding -->
+        <div class="page-title">
+            <h1>HOSCA Club Members</h1>
+        </div>
+
+
+        <h2>HoSCA Club Coordinators</h2>
+
+        <div class="container2">
+            <!--Profile Card Vincetroke-->
+            <div class="com-member">
+                <div class="picture">
+                    <img class="img-fluid" src="img/committee/Vikramaditya.jpg" alt="img">
+                </div>
+                <div class="card-content">
+                    <h3 class="name">Vikramaditya</h3>
+                    <h4 class="title">Vincetroke | Coordinator</h4>
+                </div>
+                <!--Social links-->
+                <ul class="social">
+                    <li><a href="mailto:vikramaditya113311@gmail.com" class="fa fa-envelope" aria-hidden="true"></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="club.html">Clubs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="gallery.html">Gallery</a>
-                    </li>
-                    <!-- Navbar dropdown -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-mdb-toggle="dropdown" aria-expanded="false">
-                            Committee
-                        </a>
-                        <!-- Dropdown menu -->
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li>
-                                <a class="dropdown-item" href="committee.html">Gymkhana Cultural Committee</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item active" href="developers.html">HoSCA Club Members</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="events.html">Events</a>
+                    <li><a href="https://www.linkedin.com/in/vikram-aditya-76a93a247/" target="_blank"
+                            class="fa fa-linkedin" aria-hidden="true"></a>
                     </li>
                 </ul>
-                <!-- Left links -->
             </div>
-            <!-- Collapsible wrapper -->
-        </div>
-        <!-- Container wrapper -->
-    </nav>
-    <!-- navigation -->
-
-    <!-- Page Haeding -->
-    <div class="page-title">
-        <h1>HOSCA Club Members</h1>
-    </div>
 
 
-    <h2>HoSCA Club Coordinators</h2>
+            <!--Profile VINCESTROKE2-->
+            <div class="com-member">
+                <div class="picture">
+                    <img class="img-fluid" src="img/committee/IMG_20230607_002520 - Ishani Sharma.jpg" alt="img">
+                </div>
+                <div class="card-content">
+                    <h3 class="name">Ishani Sharma</h3>
+                    <h4 class="title">Vincetroke | Coordinator</h4>
+                </div>
+                <!--Social links-->
+                <ul class="social">
+                    <li><a href="mailto:ishani_2101ai16@iitp.ac.in" class="fa fa-envelope" aria-hidden="true"></a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/ishani-sharma29/" target="_blank" class="fa fa-linkedin"
+                            aria-hidden="true"></a>
+                    </li>
+                </ul>
+            </div>
 
-    <div class="container2">
-        <!--Profile Card Vincetroke-->
-        <div class="com-member">
-            <div class="picture">
-                <img class="img-fluid" src="img/committee/Vikramaditya.jpg" alt="img">
-            </div>
-            <div class="card-content">
-                <h3 class="name">Vikramaditya</h3>
-                <h4 class="title">Vincetroke | Coordinator</h4>
-            </div>
-            <!--Social links-->
-            <ul class="social">
-                <li><a href="mailto:vikramaditya113311@gmail.com" class="fa fa-envelope" aria-hidden="true"></a>
-                </li>
-                <li><a href="https://www.linkedin.com/in/vikram-aditya-76a93a247/" target="_blank" class="fa fa-linkedin"
-                        aria-hidden="true"></a>
-                </li>
-            </ul>
-        </div>
-        
-      
-        <!--Profile VINCESTROKE2-->
-        <div class="com-member">
-            <div class="picture">
-                <img class="img-fluid" src="img/committee/IMG_20230607_002520 - Ishani Sharma.jpg" alt="img">
-            </div>
-            <div class="card-content">
-                <h3 class="name">Ishani Sharma</h3>
-                <h4 class="title">Vincetroke | Coordinator</h4>
-            </div>
-            <!--Social links-->
-            <ul class="social">
-                <li><a href="mailto:ishani_2101ai16@iitp.ac.in" class="fa fa-envelope" aria-hidden="true"></a>
-                </li>
-                <li><a href="https://www.linkedin.com/in/ishani-sharma29/" target="_blank" class="fa fa-linkedin"
-                        aria-hidden="true"></a>
-                </li>
-            </ul>
-        </div>
-    
-        <!--Profile VINCESTROKE3-->
-        <div class="com-member">
-            <div class="picture">
-                <img class="img-fluid" src="img/committee/Bhavika Choudhary.jpg" alt="img">
-            </div>
-            <div class="card-content">
-                <h3 class="name">Bhavika Choudhary </h3>
-                <h4 class="title">Vincetroke | Coordinator</h4>
-            </div>
-            <!--Social links-->
-            <ul class="social">
-                <li><a href="mailto:bhavika_2101ai10@iitp.ac.in" class="fa fa-envelope" aria-hidden="true"></a>
-                </li>
-                <li><a href="https://www.linkedin.com/in/bhavika-choudhary163" target="_blank" class="fa fa-linkedin"
-                        aria-hidden="true"></a>
-                </li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="container2">
-        <!--Profile Card Yavanika-->
-        <div class="com-member">
-            <div class="picture">
-                <img class="img-fluid" src="img/committee/Anurag Das Group.jpg" alt="img">
-            </div>
-            <div class="card-content">
-                <h3 class="name">Anurag Das Group</h3>
-                <h4 class="title">Yavanika | Coordinator</h4>
-            </div>
-            <!--Social links-->
-            <ul class="social">
-                <li><a href="mailto:anurag_2101ee97@iitp.ac.in" class="fa fa-envelope" aria-hidden="true"></a>
-                </li>
-                <li><a href="https://www.linkedin.com/in/anurag-das-group-a6b63722a" target="_blank" class="fa fa-linkedin"
-                        aria-hidden="true"></a>
-                </li>
-            </ul>
-        </div>
-        
-
-        <!--Profile YAVANIKA2-->
-        <div class="com-member">
-            <div class="picture">
-                <img class="img-fluid" src="img/committee/vishesh sahu.jpg" alt="img">
-            </div>
-            <div class="card-content">
-                <h3 class="name">Vishesh Sahu</h3>
-                <h4 class="title">Yavanika | Coordinator</h4>
-            </div>
-            <!--Social links-->
-            <ul class="social">
-                <li><a href="mailto:vishesh_2101ph32@iitp.ac.in" class="fa fa-envelope" aria-hidden="true"></a>
-                </li>
-                <li><a href="https://www.linkedin.com/in/vishesh-sahu-526373228" target="_blank" class="fa fa-linkedin"
-                        aria-hidden="true"></a>
-                </li>
-            </ul>
-        </div>
-
-        <!--Profile YAVANIKA3-->
-        <div class="com-member">
-            <div class="picture">
-                <img class="img-fluid" src="img/committee/prakash-img.jpg" alt="img">
-            </div>
-            <div class="card-content">
-                <h3 class="name"> Prakash Kumar Jha</h3>
-                <h4 class="title">Yavanika | Coordinator</h4>
-            </div>
-            <!--Social links-->
-            <ul class="social">
-                <li><a href="mailto:pkjha0102@gmail.com" class="fa fa-envelope" aria-hidden="true"></a>
-                </li>
-                <li><a href="https://www.linkedin.com/in/prakash-kumar-jha-4a6310215" target="_blank" class="fa fa-linkedin"
-                        aria-hidden="true"></a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    
-    <div class="container2">
-        <!--Profile Card Syahi---------------SYAHI------->
-        <div class="com-member">
-            <div class="picture">
-                <img class="img-fluid" src="img/committee/Nishtha_2101CS89 - Nishtha Taktewale.PNG" alt="img">
-            </div>
-            <div class="card-content">
-                <h3 class="name">Nishtha Taktewala</h3>
-                <h4 class="title">Syahi | Coordinator</h4>
-            </div>
-            <!--Social links-->
-            <ul class="social">
-                <li><a href="mailto:nishtha_2101cs89@iitp.ac.in" class="fa fa-envelope" aria-hidden="true"></a>
-                </li>
-                <li><a href="https://www.linkedin.com/in/nishtha-t-591825227" target="_blank" class="fa fa-linkedin"
-                        aria-hidden="true"></a>
-                </li>
-            </ul>
-        </div>
-
-        <!--Profile Syahi2-->
-        <div class="com-member">
-            <div class="picture">
-                <img class="img-fluid" src="img/committee/Abhilasha Mishra.jpg" alt="img">
-            </div>
-            <div class="card-content">
-                <h3 class="name">Abhilasha</h3>
-                <h4 class="title">Syahi | Coordinator</h4>
-            </div>
-            <!--Social links-->
-            <ul class="social">
-                <li><a href="mailto:abhilasha2527@gmail.com" class="fa fa-envelope" aria-hidden="true"></a>
-                </li>
-                <li><a href="https://www.linkedin.com/in/abhilashamishra13/" target="_blank" class="fa fa-linkedin"
-                        aria-hidden="true"></a>
-                </li>
-            </ul>
-        </div>
-    </div>
-
-
-    <div class="container2">
-        <!--Profile Card EXOUSIA-->
-        <div class="com-member">
-            <div class="picture">
-                <img class="img-fluid" src="img/committee/IMG_20230123_003759_255 - Aditya Tomar.jpg" alt="img">
-            </div>
-            <div class="card-content">
-                <h3 class="name">Aditya Tomar</h3>
-                <h4 class="title">Exousia | Coordinator</h4>
-            </div>
-            <!--Social links-->
-            <ul class="social">
-                <li><a href="mailto:adityatomarujn@gmail.com" class="fa fa-envelope" aria-hidden="true"></a>
-                </li>
-                <li><a href="https://www.linkedin.com/in/aditya-tomar-116453229/" target="_blank" class="fa fa-linkedin"
-                        aria-hidden="true"></a>
-                </li>
-            </ul>
-        </div>
-        
-
-        <!--Profile EXOUSIA2-->
-        <div class="com-member">
-            <div class="picture">
-                <img class="img-fluid" src="img/committee/Mukund Sharma.jpg" alt="img">
-            </div>
-            <div class="card-content">
-                <h3 class="name">Mukund Sharma</h3>
-                <h4 class="title">Exousia | Coordinator</h4>
-            </div>
-            <!--Social links-->
-            <ul class="social">
-                <li><a href="mukund_2101ai19@iitp.ac.in" class="fa fa-envelope" aria-hidden="true"></a>
-                </li>
-                <li><a href="https://www.linkedin.com/in/mukund-sharma-381508214/" target="_blank" class="fa fa-linkedin"
-                        aria-hidden="true"></a>
-                </li>
-            </ul>
-        </div>
-    </div>
-
-
-
-   
-    <div class="container2">
-        <!--Profile Card PIXXEL-->
-        <div class="com-member">
-            <div class="picture">
-                <img class="img-fluid" src="img/committee/Ankit Kumar.jpg" alt="img">
-            </div>
-            <div class="card-content">
-                <h3 class="name">Ankit Kumar</h3>
-                <h4 class="title">PIXXEL | Coordinator</h4>
-            </div>
-            <!--Social links-->
-            <ul class="social">
-                <li><a href="mailto:ankit_2101cb10@iitp.ac.in" class="fa fa-envelope" aria-hidden="true"></a>
-                </li>
-                <li><a href="https://www.linkedin.com/in/ankit-kumar-927646248" target="_blank" class="fa fa-linkedin"
-                        aria-hidden="true"></a>
-                </li>
-            </ul>
-        </div>
-        
-
-        <!--Profile PIXXEL2-->
-        <div class="com-member">
-            <div class="picture">
-                <img class="img-fluid" src="img/committee/IMG_20230223_090853_928 - Srinivasu Vankudothu.jpg" alt="img">
-            </div>
-            <div class="card-content">
-                <h3 class="name">Vankudothu Surya Prakash</h3>
-                <h4 class="title">PIXXEL | Coordinator</h4>
-            </div>
-            <!--Social links-->
-            <ul class="social">
-                <li><a href="mailto:vankudothu_2101mc46@iitp.ac.in" class="fa fa-envelope" aria-hidden="true"></a>
-                </li>
-                <li><a href="https://www.linkedin.com/in/surya-prakash-vankudothu-845484227/" target="_blank" class="fa fa-linkedin"
-                        aria-hidden="true"></a>
-                </li>
-            </ul>
-        </div>
-    </div>
-
-
-    <div class="container2">
-        <!--Profile Card ARIA-->
-        <div class="com-member">
-            <div class="picture">
-                <img class="img-fluid" src="img/committee/Anshu.jpg" alt="img">
-            </div>
-            <div class="card-content">
-                <h3 class="name">Anshu Nauwala</h3>
-                <h4 class="title">ARIA | Coordinator</h4>
-            </div>
-            <!--Social links-->
-            <ul class="social">
-                <li><a href="mailto:utkarsh_2101ee79@iitp.ac.in" class="fa fa-envelope" aria-hidden="true"></a>
-                </li>
-                <li><a href="" target="_blank" class="fa fa-linkedin"
-                        aria-hidden="true"></a>
-                </li>
-            </ul>
-        </div>
-        
-
-        <!--Profile ARIA2-->
-        <div class="com-member">
-            <div class="picture">
-                <img class="img-fluid" src="img/committee/utkarsh-img.jpg" alt="img">
-            </div>
-            <div class="card-content">
-                <h3 class="name">Utkarsh Kumar</h3>
-                <h4 class="title">ARIA | Coordinator</h4>
-            </div>
-            <!--Social links-->
-            <ul class="social">
-                <li><a href="mailto:utkarsh_2101ee79@iitp.ac.in" class="fa fa-envelope" aria-hidden="true"></a>
-                </li>
-                <li><a href=" " target="_blank" class="fa fa-linkedin"
-                        aria-hidden="true"></a>
-                </li>
-            </ul>
-        </div>
-    </div>
-
- <div class="container2">
-             <!--Profile Card Quiz club-->
-        <div class="com-member">
-            <div class="picture">
-                <img class="img-fluid" src="img/committee/deepanker.jpg" alt="img">
-            </div>
-            <div class="card-content">
-                <h3 class="name">Deepanker Jauhari</h3>
-                <h4 class="title">Quiz Club | Coordinator</h4>
-            </div>
-            <!--Social links-->
-            <ul class="social">
-                <li><a href="mailto:deepanker_2101cs23@iitp.ac.in" class="fa fa-envelope" aria-hidden="true"></a>
-                </li>
-                <li><a href="https://www.linkedin.com/in/deepankerj/" target="_blank" class="fa fa-linkedin"
-                        aria-hidden="true"></a>
-                </li>
-            </ul>
-        </div>
-        
-
-        <!--Profile Quiz club 2-->
-        <div class="com-member">
-            <div class="picture">
-                <img class="img-fluid" src="img/committee/Siddhant Senapati.jpg" alt="img">
-            </div>
-            <div class="card-content">
-                <h3 class="name">Siddhant Senapati</h3>
-                <h4 class="title">Quiz Club | Coordinator</h4>
-            </div>
-            <!--Social links-->
-            <ul class="social">
-                <li><a href="mailto:siddhant_2101ai38@iitp.ac.in" class="fa fa-envelope" aria-hidden="true"></a>
-                </li>
-                <li><a href="https://www.linkedin.com/in/siddhant-senapati-24b890241/" target="_blank" class="fa fa-linkedin"
-                        aria-hidden="true"></a>
-                </li>
-            </ul>
-        </div>
-    </div>
-
-
-
-    <div class="container2">
-        <!--Profile Card HOOT-->
-        <div class="com-member">
-            <div class="picture">
-                <img class="img-fluid" src="img/committee/Akash Sinha.jpg" alt="img">
-            </div>
-            <div class="card-content">
-                <h3 class="name">Akash Sinha</h3>
-                <h4 class="title">HOOT | Coordinator</h4>
-            </div>
-            <!--Social links-->
-            <ul class="social">
-                <li><a href="akash03sinha@gmail.com" class="fa fa-envelope" aria-hidden="true"></a>
-                </li>
-                <li><a href="" target="_blank" class="fa fa-linkedin"
-                        aria-hidden="true"></a>
-                </li>
-            </ul>
-        </div>
-        
-
-        <!--Profile HOOT2-->
-        <div class="com-member">
-            <div class="picture">
-                <img class="img-fluid" src="img/committee/Rishikant Chigrupaatii.jpg" alt="img">
-            </div>
-            <div class="card-content">
-                <h3 class="name">Rishikant Chigrupaatii </h3>
-                <h4 class="title">HOOT | Coordinator</h4>
-            </div>
-            <!--Social links-->
-            <ul class="social">
-                <li><a href="rishikant_2101cs66@iitp.ac.in" class="fa fa-envelope" aria-hidden="true"></a>
-                </li>
-                <li><a href="https://www.linkedin.com/in/rishikant-chigrupaatii-693230240/" target="_blank" class="fa fa-linkedin"
-                        aria-hidden="true"></a>
-                </li>
-            </ul>
-        </div>
-    </div>
-
-
-
-    <div class="container2">
-        <!--Profile CarD ANIME CLUB-->
-        <div class="com-member">
-            <div class="picture">
-                <img class="img-fluid" src="img/committee/Sahil Agrawal.jpg" alt="img">
-            </div>
-            <div class="card-content">
-                <h3 class="name">Sahil Agrawal</h3>
-                <h4 class="title">Anime Club | Coordinator</h4>
-            </div>
-            <!--Social links-->
-            <ul class="social">
-                <li><a href="mailto:agrawalsahil753@gmail.com" class="fa fa-envelope" aria-hidden="true"></a>
-                </li>
-                <li><a href="https://www.linkedin.com/in/sahil-agrawal-20b064246" target="_blank" class="fa fa-linkedin"
-                        aria-hidden="true"></a>
-                </li>
-            </ul>
-        </div>
-        
-
-        <!--Profile ANIME CLUB-->
-        <div class="com-member">
-            <div class="picture">
-                <img class="img-fluid" src="img/committee/IMG-20230607-WA0000 - Ash Wankhede.jpg" alt="img">
-            </div>
-            <div class="card-content">
-                <h3 class="name">Prashik Wankhede</h3>
-                <h4 class="title">Anime Club | Coordinator</h4>
-            </div>
-            <!--Social links-->
-            <ul class="social">
-                <li><a href="mailto:prashik_2101cs60@iitp.ac.in " class="fa fa-envelope" aria-hidden="true"></a>
-                </li>
-                <li><a href="https://www.linkedin.com/in/prashik-wankhede-a56a43247/" target="_blank" class="fa fa-linkedin"
-                        aria-hidden="true"></a>
-                </li>
-            </ul>
-        </div>
-    </div>
-   
-    <div class="container2">
-       
-    <div class="container1">
-        <!--Profile Card Hexachrome-->
-        <div class="com-member">
-          <div class="picture">
-            <img class="img-fluid" src="img/committee/PRATYUSH MANAS.jpg" alt="img">
-          </div>
-          <div class="card-content">
-            <h3 class="name">Pratyush Manas</h3>
-            <h4 class="title">Hexachrome | Coordinator</h4>
-          </div>
-          <!--Social links-->
-          <ul class="social">
-            <li><a href="mailto:pratyush_2101mm17@iitp.ac.in" class="fa fa-envelope" aria-hidden="true"></a>
-            </li>
-            <li><a href="https://www.linkedin.com/in/pratyush-manas-322460228/" target="_blank" class="fa fa-linkedin"
-                aria-hidden="true"></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-    
-    <h2>Web & Dev Team</h2>
-
-    <div class="container2">
-        <!--Profile Card Coord Secretary-->
-        <div class="com-member">
-            <div class="picture">
-                <img class="img-fluid" src="img/committee/srivardhan-web1.jpeg" alt="PHDBS">
-            </div>
-            <div class="card-content">
-                <h3 class="name">Srivardhan Rao</h3>
-                <h4 class="title">Web Dev | Coordinator</h4>
-            </div>
-            <!--Social links-->
-            <ul class="social">
-                <li><a href="mailto:malraju_2001ee30@iitp.ac.in" class="fa fa-envelope" aria-hidden="true"></a>
-                </li>
-                <li><a href="https://www.linkedin.com/in/srivardhan-rao-978556225" target="_blank"
-                        class="fa fa-linkedin" aria-hidden="true"></a>
-                </li>
-            </ul>
-        </div>
-
-        <!--Profile Card coord Secretary-->
-        <div class="com-member">
-            <div class="picture">
-                <img class="img-fluid" src="img/committee/rohan-web1.jpeg" alt="PGBS">
-            </div>
-            <div class="card-content">
-                <h3 class="name">Rohan Chowke</h3>
-                <h4 class="title">Web Dev | Coordinator</h4>
-            </div>
-            <!--Social links-->
-            <ul class="social">
-                <li><a href="mailto:chowke_2001me18@iitp.ac.in" class="fa fa-envelope" aria-hidden="true"></a>
-                </li>
-                <li><a href="https://www.linkedin.com/in/rohan-chowke-442b80243" target="_blank" class="fa fa-linkedin"
-                        aria-hidden="true"></a>
-                </li>
-            </ul>
-        </div>
-    </div>
-
-    <h2>Website|Developers</h2>
-
-    <div class="container2">
-        <!--Profile Card Developers-->
-        <div class="com-member">
-            <div class="picture">
-                <img class="img-fluid" src="img/committee/ashutosh1.jpg" alt="PGGS">
-            </div>
-            <div class="card-content">
-                <h3 class="name">Ashutosh Kumar Singh</h3>
-                <h4 class="title">Web Dev | Sub-coordinator</h4>
-            </div>
-            <!--Social links-->
-            <ul class="social">
-                <li><a href="mailto:ashutosh_2101cs12@iitp.ac.in" class="fa fa-envelope" aria-hidden="true"></a>
-                </li>
-                <li><a href="https://www.linkedin.com/in/ashutosh-kumar-singh-cse-iitpatna/" target="_balnk"
-                        class="fa fa-linkedin" aria-hidden="true"></a>
-                </li>
-            </ul>
-        </div>
-
-        <div class="com-member">
-            <div class="picture">
-                <img class="img-fluid" src="img/committee/raunak (2)1.jpg" alt="UGGS">
-            </div>
-            <div class="card-content">
-                <h3 class="name">Raunak Kumar Gupta</h3>
-                <h4 class="title">Web Dev | Sub-coordinator</h4>
-            </div>
-            <!--Social links-->
-            <ul class="social">
-                <li><a href="mailto:raunakmodanwal321@gmail.com" class="fa fa-envelope" aria-hidden="true"></a>
-                </li>
-                <li><a href="https://www.linkedin.com/in/raunak-kumar-gupta-075121226" target="_blank"
-                        class="fa fa-linkedin" aria-hidden="true"></a>
-                </li>
-            </ul>
-        </div>
-
-        <div class="com-member">
-            <div class="picture">
-                <img class="img-fluid" src="img/committee/abhash.jpg" alt="JYS">
-            </div>
-            <div class="card-content">
-                <h3 class="name">Abhash Kumar</h3>
-                <h4 class="title">Web Dev | Sub-coordinator</h4>
-            </div>
-            <!--Social links-->
-            <ul class="social">
-                <li><a href="mailto:abhash_2101mc01@iitp.ac.in" class="fa fa-envelope" aria-hidden="true"></a>
-                </li>
-                <li><a href="http://www.linkedin.com/in/abhash-kumar-059191247" target="_blank" class="fa fa-linkedin"
-                        aria-hidden="true"></a>
-                </li>
-            </ul>
-        </div>
-
-        <div class="container2"></div>
-        <div class="com-member">
-            <div class="picture">
-                <img class="img-fluid" src="img/committee/avinash.jpeg" alt="SYS">
-            </div>
-            <div class="card-content">
-                <h3 class="name">Avinash Tyagi</h3>
-                <h4 class="title">Web Dev | Sub-coordinator</h4>
-            </div>
-            <!--Social links-->
-            <ul class="social">
-                <li><a href="mailto:" class="fa fa-envelope" aria-hidden="true"></a>
-                </li>
-                <li><a href="https://www.linkedin.com/in/avinash-t-956342226" target="_blank" class="fa fa-linkedin"
-                        aria-hidden="true"></a>
-                </li>
-            </ul>
-        </div>
-
-        <div class="com-member">
-            <div class="picture">
-                <img class="img-fluid" src="img/committee/bhaskar.jpg" alt="SYS">
-            </div>
-            <div class="card-content">
-                <h3 class="name">Bhaskar Mishra</h3>
-                <h4 class="title">Web Dev | Sub-coordinator</h4>
-            </div>
-            <!--Social links-->
-            <ul class="social">
-                <li><a href="mailto:mishrabhaskar.3005@gmail.com" class="fa fa-envelope" aria-hidden="true"></a>
-                </li>
-                <li><a href="https://www.linkedin.com/in/bhaskar-mishra-191772223" target="_blank"
-                        class="fa fa-linkedin" aria-hidden="true"></a>
-                </li>
-            </ul>
-        </div>
-
-        <div class="com-member">
-            <div class="picture">
-                <img class="img-fluid" src="img/committee/kamal1.jpg" alt="img">
-            </div>
-            <div class="card-content">
-                <h3 class="name">Raj Kamal</h3>
-                <h4 class="title">Web Dev | Sub-coordinator</h4>
-            </div>
-            <!--Social links-->
-            <ul class="social">
-                <li><a href="mailto:raj_2101ce45@iitp.ac.in" class="fa fa-envelope" aria-hidden="true"></a>
-                </li>
-                <li><a href="https://www.linkedin.com/in/raj-kamal-34737922a" target="_blank" class="fa fa-linkedin"
-                        aria-hidden="true"></a>
-                </li>
-            </ul>
-        </div>
-
-    </div>
-
-    <!-- </div> -->
-
-
-
-
-
-
-
-    
-
-    
-
-
-</div>
-
-
-    <!-- footer  -->
-    <footer class="footer-distributed">
-
-        <!-- Left side footer -->
-        <div class="footer-left">
-            <img src="img/hosca.jpg">
-            <h3>House of <span>Socio-Cultural </span>Affairs</h3>
-            <div class="footer-icons">
-                <a href="https://www.facebook.com/iitp.sociocultural/"><i class="fa fa-facebook"></i></a>
-                <a href="https://www.instagram.com/hosca_iitp_official/"><i class="fa fa-instagram"></i></a>
-                <a href="https://www.youtube.com/user/CULTatIITP"><i class="fa fa-youtube"></i></a>
+            <!--Profile VINCESTROKE3-->
+            <div class="com-member">
+                <div class="picture">
+                    <img class="img-fluid" src="img/committee/Bhavika Choudhary.jpg" alt="img">
+                </div>
+                <div class="card-content">
+                    <h3 class="name">Bhavika Choudhary </h3>
+                    <h4 class="title">Vincetroke | Coordinator</h4>
+                </div>
+                <!--Social links-->
+                <ul class="social">
+                    <li><a href="mailto:bhavika_2101ai10@iitp.ac.in" class="fa fa-envelope" aria-hidden="true"></a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/bhavika-choudhary163" target="_blank"
+                            class="fa fa-linkedin" aria-hidden="true"></a>
+                    </li>
+                </ul>
             </div>
         </div>
 
-        <!-- Middle of footer -->
-        <div class="footer-center">
-            <div class="footer-center-p">
-                <p>Quick Links</p>
+        <div class="container2">
+            <!--Profile Card Yavanika-->
+            <div class="com-member">
+                <div class="picture">
+                    <img class="img-fluid" src="img/committee/Anurag Das Group.jpg" alt="img">
+                </div>
+                <div class="card-content">
+                    <h3 class="name">Anurag Das Group</h3>
+                    <h4 class="title">Yavanika | Coordinator</h4>
+                </div>
+                <!--Social links-->
+                <ul class="social">
+                    <li><a href="mailto:anurag_2101ee97@iitp.ac.in" class="fa fa-envelope" aria-hidden="true"></a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/anurag-das-group-a6b63722a" target="_blank"
+                            class="fa fa-linkedin" aria-hidden="true"></a>
+                    </li>
+                </ul>
             </div>
-            <ul class="footer-links">
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="club.html">Clubs</a>
-                </li>
-                <li>
-                    <a href="gallery.html">Gallery</a>
-                </li>
-                <li>
-                    <a href="events.html">Events</a>
-                </li>
-                <li>
-                    <a href="committee.html">Committee</a>
-                </li>
-                <li>
-                    <a href="https://www.iitp.ac.in/" target="_blank">IIT Patna</a>
-                </li>
-            </ul>
+
+
+            <!--Profile YAVANIKA2-->
+            <div class="com-member">
+                <div class="picture">
+                    <img class="img-fluid" src="img/committee/vishesh sahu.jpg" alt="img">
+                </div>
+                <div class="card-content">
+                    <h3 class="name">Vishesh Sahu</h3>
+                    <h4 class="title">Yavanika | Coordinator</h4>
+                </div>
+                <!--Social links-->
+                <ul class="social">
+                    <li><a href="mailto:vishesh_2101ph32@iitp.ac.in" class="fa fa-envelope" aria-hidden="true"></a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/vishesh-sahu-526373228" target="_blank"
+                            class="fa fa-linkedin" aria-hidden="true"></a>
+                    </li>
+                </ul>
+            </div>
+
+            <!--Profile YAVANIKA3-->
+            <div class="com-member">
+                <div class="picture">
+                    <img class="img-fluid" src="img/committee/prakash-img.jpg" alt="img">
+                </div>
+                <div class="card-content">
+                    <h3 class="name"> Prakash Kumar Jha</h3>
+                    <h4 class="title">Yavanika | Coordinator</h4>
+                </div>
+                <!--Social links-->
+                <ul class="social">
+                    <li><a href="mailto:pkjha0102@gmail.com" class="fa fa-envelope" aria-hidden="true"></a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/prakash-kumar-jha-4a6310215" target="_blank"
+                            class="fa fa-linkedin" aria-hidden="true"></a>
+                    </li>
+                </ul>
+            </div>
         </div>
 
-        <!-- Right side footer -->
-        <div class="footer-right">
-            <p class="footer-company-about">
-                <span>Indian Institute of Technology, Patna</span>
-            </p>
-            <div>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.0811345297775!2d84.84899121501635!3d25.535674183739797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed577f6954a4ab%3A0x6ce8f1b9fc2aa02a!2sIndian%20Institute%20of%20Technology%2C%20Patna%20(IIT%20Patna)!5e0!3m2!1sen!2sin!4v1667537698067!5m2!1sen!2sin"
-                    width="250" height="200" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="container2">
+            <!--Profile Card Syahi---------------SYAHI------->
+            <div class="com-member">
+                <div class="picture">
+                    <img class="img-fluid" src="img/committee/Nishtha_2101CS89 - Nishtha Taktewale.PNG" alt="img">
+                </div>
+                <div class="card-content">
+                    <h3 class="name">Nishtha Taktewala</h3>
+                    <h4 class="title">Syahi | Coordinator</h4>
+                </div>
+                <!--Social links-->
+                <ul class="social">
+                    <li><a href="mailto:nishtha_2101cs89@iitp.ac.in" class="fa fa-envelope" aria-hidden="true"></a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/nishtha-t-591825227" target="_blank" class="fa fa-linkedin"
+                            aria-hidden="true"></a>
+                    </li>
+                </ul>
             </div>
-            <div class="footer-icons">
-                <a href="https://www.facebook.com/iitp.ac.in/"><i class="fa fa-facebook"></i></a>
-                <a href="https://twitter.com/IITPAT?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i
-                        class="fa fa-twitter"></i></a>
-                <a href="https://www.instagram.com/iit_patna_official/"><i class="fa fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/school/indian-institute-of-technology-patna/"><i
-                        class="fa fa-linkedin"></i></a>
-            </div>
-        </div>
-        <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: #2c292f;">
-            © Copyright:
-            <span class="text-white">IIT Patna . All rights are reserved</span>
-        </div>
-        <!-- Copyright -->
-    </footer>
 
-    <!-- MDB -->
-    <script type="text/javascript" src="js/mdb.min.js"></script>
-    <!-- Custom scripts -->
-    <script src="myjs/background.js"></script>
-    <script src="myjs/nav.js"></script>
-</body>
+            <!--Profile Syahi2-->
+            <div class="com-member">
+                <div class="picture">
+                    <img class="img-fluid" src="img/nikita.jpg" alt="img">
+                </div>
+                <div class="card-content">
+                    <h3 class="name">Nikita Srivastava</h3>
+                    <h4 class="title">Syahi | Coordinator</h4>
+                </div>
+                <!--Social links-->
+                <ul class="social">
+                    <li><a href="mailto:nikitasri25@gmail.com" class="fa fa-envelope" aria-hidden="true"></a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/nikita-srivastava-404bba22a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                            target="_blank" class="fa fa-linkedin" aria-hidden="true"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="container2">
+            <!--Profile Card EXOUSIA-->
+            <div class="com-member">
+                <div class="picture">
+                    <img class="img-fluid" src="img/committee/IMG_20230123_003759_255 - Aditya Tomar.jpg" alt="img">
+                </div>
+                <div class="card-content">
+                    <h3 class="name">Aditya Tomar</h3>
+                    <h4 class="title">Exousia | Coordinator</h4>
+                </div>
+                <!--Social links-->
+                <ul class="social">
+                    <li><a href="mailto:adityatomarujn@gmail.com" class="fa fa-envelope" aria-hidden="true"></a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/aditya-tomar-116453229/" target="_blank"
+                            class="fa fa-linkedin" aria-hidden="true"></a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <!--Profile EXOUSIA2-->
+            <div class="com-member">
+                <div class="picture">
+                    <img class="img-fluid" src="img/committee/Mukund Sharma.jpg" alt="img">
+                </div>
+                <div class="card-content">
+                    <h3 class="name">Mukund Sharma</h3>
+                    <h4 class="title">Exousia | Coordinator</h4>
+                </div>
+                <!--Social links-->
+                <ul class="social">
+                    <li><a href="mukund_2101ai19@iitp.ac.in" class="fa fa-envelope" aria-hidden="true"></a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/mukund-sharma-381508214/" target="_blank"
+                            class="fa fa-linkedin" aria-hidden="true"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
+        <div class="container2">
+            <!--Profile Card PIXXEL-->
+            <div class="com-member">
+                <div class="picture">
+                    <img class="img-fluid" src="img/committee/Ankit Kumar.jpg" alt="img">
+                </div>
+                <div class="card-content">
+                    <h3 class="name">Ankit Kumar</h3>
+                    <h4 class="title">PIXXEL | Coordinator</h4>
+                </div>
+                <!--Social links-->
+                <ul class="social">
+                    <li><a href="mailto:ankit_2101cb10@iitp.ac.in" class="fa fa-envelope" aria-hidden="true"></a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/ankit-kumar-927646248" target="_blank"
+                            class="fa fa-linkedin" aria-hidden="true"></a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <!--Profile PIXXEL2-->
+            <div class="com-member">
+                <div class="picture">
+                    <img class="img-fluid" src="img/committee/IMG_20230223_090853_928 - Srinivasu Vankudothu.jpg"
+                        alt="img">
+                </div>
+                <div class="card-content">
+                    <h3 class="name">Vankudothu Surya Prakash</h3>
+                    <h4 class="title">PIXXEL | Coordinator</h4>
+                </div>
+                <!--Social links-->
+                <ul class="social">
+                    <li><a href="mailto:vankudothu_2101mc46@iitp.ac.in" class="fa fa-envelope" aria-hidden="true"></a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/surya-prakash-vankudothu-845484227/" target="_blank"
+                            class="fa fa-linkedin" aria-hidden="true"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="container2">
+            <!--Profile Card ARIA-->
+            <div class="com-member">
+                <div class="picture">
+                    <img class="img-fluid" src="img/committee/Anshu.jpg" alt="img">
+                </div>
+                <div class="card-content">
+                    <h3 class="name">Anshu Nauwala</h3>
+                    <h4 class="title">ARIA | Coordinator</h4>
+                </div>
+                <!--Social links-->
+                <ul class="social">
+                    <li><a href="mailto:utkarsh_2101ee79@iitp.ac.in" class="fa fa-envelope" aria-hidden="true"></a>
+                    </li>
+                    <li><a href="" target="_blank" class="fa fa-linkedin" aria-hidden="true"></a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <!--Profile ARIA2-->
+            <div class="com-member">
+                <div class="picture">
+                    <img class="img-fluid" src="img/committee/utkarsh-img.jpg" alt="img">
+                </div>
+                <div class="card-content">
+                    <h3 class="name">Utkarsh Kumar</h3>
+                    <h4 class="title">ARIA | Coordinator</h4>
+                </div>
+                <!--Social links-->
+                <ul class="social">
+                    <li><a href="mailto:utkarsh_2101ee79@iitp.ac.in" class="fa fa-envelope" aria-hidden="true"></a>
+                    </li>
+                    <li><a href=" " target="_blank" class="fa fa-linkedin" aria-hidden="true"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container2">
+            <!--Profile Card Quiz club-->
+            <div class="com-member">
+                <div class="picture">
+                    <img class="img-fluid" src="img/committee/deepanker.jpg" alt="img">
+                </div>
+                <div class="card-content">
+                    <h3 class="name">Deepanker Jauhari</h3>
+                    <h4 class="title">Quiz Club | Coordinator</h4>
+                </div>
+                <!--Social links-->
+                <ul class="social">
+                    <li><a href="mailto:deepanker_2101cs23@iitp.ac.in" class="fa fa-envelope" aria-hidden="true"></a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/deepankerj/" target="_blank" class="fa fa-linkedin"
+                            aria-hidden="true"></a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <!--Profile Quiz club 2-->
+            <div class="com-member">
+                <div class="picture">
+                    <img class="img-fluid" src="img/committee/Siddhant Senapati.jpg" alt="img">
+                </div>
+                <div class="card-content">
+                    <h3 class="name">Siddhant Senapati</h3>
+                    <h4 class="title">Quiz Club | Coordinator</h4>
+                </div>
+                <!--Social links-->
+                <ul class="social">
+                    <li><a href="mailto:siddhant_2101ai38@iitp.ac.in" class="fa fa-envelope" aria-hidden="true"></a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/siddhant-senapati-24b890241/" target="_blank"
+                            class="fa fa-linkedin" aria-hidden="true"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+
+        <div class="container2">
+            <!--Profile Card HOOT-->
+            <div class="com-member">
+                <div class="picture">
+                    <img class="img-fluid" src="img/committee/Akash Sinha.jpg" alt="img">
+                </div>
+                <div class="card-content">
+                    <h3 class="name">Akash Sinha</h3>
+                    <h4 class="title">HOOT | Coordinator</h4>
+                </div>
+                <!--Social links-->
+                <ul class="social">
+                    <li><a href="akash03sinha@gmail.com" class="fa fa-envelope" aria-hidden="true"></a>
+                    </li>
+                    <li><a href="" target="_blank" class="fa fa-linkedin" aria-hidden="true"></a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <!--Profile HOOT2-->
+            <div class="com-member">
+                <div class="picture">
+                    <img class="img-fluid" src="img/committee/Rishikant Chigrupaatii.jpg" alt="img">
+                </div>
+                <div class="card-content">
+                    <h3 class="name">Rishikant Chigrupaatii </h3>
+                    <h4 class="title">HOOT | Coordinator</h4>
+                </div>
+                <!--Social links-->
+                <ul class="social">
+                    <li><a href="rishikant_2101cs66@iitp.ac.in" class="fa fa-envelope" aria-hidden="true"></a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/rishikant-chigrupaatii-693230240/" target="_blank"
+                            class="fa fa-linkedin" aria-hidden="true"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+
+        <div class="container2">
+            <!--Profile CarD ANIME CLUB-->
+            <div class="com-member">
+                <div class="picture">
+                    <img class="img-fluid" src="img/committee/Sahil Agrawal.jpg" alt="img">
+                </div>
+                <div class="card-content">
+                    <h3 class="name">Sahil Agrawal</h3>
+                    <h4 class="title">Anime Club | Coordinator</h4>
+                </div>
+                <!--Social links-->
+                <ul class="social">
+                    <li><a href="mailto:agrawalsahil753@gmail.com" class="fa fa-envelope" aria-hidden="true"></a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/sahil-agrawal-20b064246" target="_blank"
+                            class="fa fa-linkedin" aria-hidden="true"></a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <!--Profile ANIME CLUB-->
+            <div class="com-member">
+                <div class="picture">
+                    <img class="img-fluid" src="img/committee/IMG-20230607-WA0000 - Ash Wankhede.jpg" alt="img">
+                </div>
+                <div class="card-content">
+                    <h3 class="name">Prashik Wankhede</h3>
+                    <h4 class="title">Anime Club | Coordinator</h4>
+                </div>
+                <!--Social links-->
+                <ul class="social">
+                    <li><a href="mailto:prashik_2101cs60@iitp.ac.in " class="fa fa-envelope" aria-hidden="true"></a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/prashik-wankhede-a56a43247/" target="_blank"
+                            class="fa fa-linkedin" aria-hidden="true"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container2">
+
+            <div class="container1">
+                <!--Profile Card Hexachrome-->
+                <div class="com-member">
+                    <div class="picture">
+                        <img class="img-fluid" src="img/committee/PRATYUSH MANAS.jpg" alt="img">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="name">Pratyush Manas</h3>
+                        <h4 class="title">Hexachrome | Coordinator</h4>
+                    </div>
+                    <!--Social links-->
+                    <ul class="social">
+                        <li><a href="mailto:pratyush_2101mm17@iitp.ac.in" class="fa fa-envelope" aria-hidden="true"></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/pratyush-manas-322460228/" target="_blank"
+                                class="fa fa-linkedin" aria-hidden="true"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <h2>Web & Dev Team</h2>
+
+            <div class="container2">
+                <!--Profile Card Coord Secretary-->
+                <div class="com-member">
+                    <div class="picture">
+                        <img class="img-fluid" src="img/committee/srivardhan-web1.jpeg" alt="PHDBS">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="name">Srivardhan Rao</h3>
+                        <h4 class="title">Web Dev | Coordinator</h4>
+                    </div>
+                    <!--Social links-->
+                    <ul class="social">
+                        <li><a href="mailto:malraju_2001ee30@iitp.ac.in" class="fa fa-envelope" aria-hidden="true"></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/srivardhan-rao-978556225" target="_blank"
+                                class="fa fa-linkedin" aria-hidden="true"></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!--Profile Card coord Secretary-->
+                <div class="com-member">
+                    <div class="picture">
+                        <img class="img-fluid" src="img/committee/rohan-web1.jpeg" alt="PGBS">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="name">Rohan Chowke</h3>
+                        <h4 class="title">Web Dev | Coordinator</h4>
+                    </div>
+                    <!--Social links-->
+                    <ul class="social">
+                        <li><a href="mailto:chowke_2001me18@iitp.ac.in" class="fa fa-envelope" aria-hidden="true"></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/rohan-chowke-442b80243" target="_blank"
+                                class="fa fa-linkedin" aria-hidden="true"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <h2>Website|Developers</h2>
+
+            <div class="container2">
+                <!--Profile Card Developers-->
+                <div class="com-member">
+                    <div class="picture">
+                        <img class="img-fluid" src="img/committee/ashutosh1.jpg" alt="PGGS">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="name">Ashutosh Kumar Singh</h3>
+                        <h4 class="title">Web Dev | Sub-coordinator</h4>
+                    </div>
+                    <!--Social links-->
+                    <ul class="social">
+                        <li><a href="mailto:ashutosh_2101cs12@iitp.ac.in" class="fa fa-envelope" aria-hidden="true"></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/ashutosh-kumar-singh-cse-iitpatna/" target="_balnk"
+                                class="fa fa-linkedin" aria-hidden="true"></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="com-member">
+                    <div class="picture">
+                        <img class="img-fluid" src="img/committee/raunak (2)1.jpg" alt="UGGS">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="name">Raunak Kumar Gupta</h3>
+                        <h4 class="title">Web Dev | Sub-coordinator</h4>
+                    </div>
+                    <!--Social links-->
+                    <ul class="social">
+                        <li><a href="mailto:raunakmodanwal321@gmail.com" class="fa fa-envelope" aria-hidden="true"></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/raunak-kumar-gupta-075121226" target="_blank"
+                                class="fa fa-linkedin" aria-hidden="true"></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="com-member">
+                    <div class="picture">
+                        <img class="img-fluid" src="img/committee/abhash.jpg" alt="JYS">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="name">Abhash Kumar</h3>
+                        <h4 class="title">Web Dev | Sub-coordinator</h4>
+                    </div>
+                    <!--Social links-->
+                    <ul class="social">
+                        <li><a href="mailto:abhash_2101mc01@iitp.ac.in" class="fa fa-envelope" aria-hidden="true"></a>
+                        </li>
+                        <li><a href="http://www.linkedin.com/in/abhash-kumar-059191247" target="_blank"
+                                class="fa fa-linkedin" aria-hidden="true"></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="container2"></div>
+                <div class="com-member">
+                    <div class="picture">
+                        <img class="img-fluid" src="img/committee/avinash.jpeg" alt="SYS">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="name">Avinash Tyagi</h3>
+                        <h4 class="title">Web Dev | Sub-coordinator</h4>
+                    </div>
+                    <!--Social links-->
+                    <ul class="social">
+                        <li><a href="mailto:" class="fa fa-envelope" aria-hidden="true"></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/avinash-t-956342226" target="_blank"
+                                class="fa fa-linkedin" aria-hidden="true"></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="com-member">
+                    <div class="picture">
+                        <img class="img-fluid" src="img/committee/bhaskar.jpg" alt="SYS">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="name">Bhaskar Mishra</h3>
+                        <h4 class="title">Web Dev | Sub-coordinator</h4>
+                    </div>
+                    <!--Social links-->
+                    <ul class="social">
+                        <li><a href="mailto:mishrabhaskar.3005@gmail.com" class="fa fa-envelope" aria-hidden="true"></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/bhaskar-mishra-191772223" target="_blank"
+                                class="fa fa-linkedin" aria-hidden="true"></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="com-member">
+                    <div class="picture">
+                        <img class="img-fluid" src="img/committee/kamal1.jpg" alt="img">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="name">Raj Kamal</h3>
+                        <h4 class="title">Web Dev | Sub-coordinator</h4>
+                    </div>
+                    <!--Social links-->
+                    <ul class="social">
+                        <li><a href="mailto:raj_2101ce45@iitp.ac.in" class="fa fa-envelope" aria-hidden="true"></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/raj-kamal-34737922a" target="_blank"
+                                class="fa fa-linkedin" aria-hidden="true"></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- </div> -->
+
+        </div>
+
+
+        <!-- footer  -->
+        <footer class="footer-distributed">
+
+            <!-- Left side footer -->
+            <div class="footer-left">
+                <img src="img/hosca.jpg">
+                <h3>House of <span>Socio-Cultural </span>Affairs</h3>
+                <div class="footer-icons">
+                    <a href="https://www.facebook.com/iitp.sociocultural/"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/hosca_iitp_official/"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/user/CULTatIITP"><i class="fa fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <!-- Middle of footer -->
+            <div class="footer-center">
+                <div class="footer-center-p">
+                    <p>Quick Links</p>
+                </div>
+                <ul class="footer-links">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="club.html">Clubs</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="events.html">Events</a>
+                    </li>
+                    <li>
+                        <a href="committee.html">Committee</a>
+                    </li>
+                    <li>
+                        <a href="https://www.iitp.ac.in/" target="_blank">IIT Patna</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Right side footer -->
+            <div class="footer-right">
+                <p class="footer-company-about">
+                    <span>Indian Institute of Technology, Patna</span>
+                </p>
+                <div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.0811345297775!2d84.84899121501635!3d25.535674183739797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed577f6954a4ab%3A0x6ce8f1b9fc2aa02a!2sIndian%20Institute%20of%20Technology%2C%20Patna%20(IIT%20Patna)!5e0!3m2!1sen!2sin!4v1667537698067!5m2!1sen!2sin"
+                        width="250" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="footer-icons">
+                    <a href="https://www.facebook.com/iitp.ac.in/"><i class="fa fa-facebook"></i></a>
+                    <a href="https://twitter.com/IITPAT?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i
+                            class="fa fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/iit_patna_official/"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/school/indian-institute-of-technology-patna/"><i
+                            class="fa fa-linkedin"></i></a>
+                </div>
+            </div>
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: #2c292f;">
+                © Copyright:
+                <span class="text-white">IIT Patna . All rights are reserved</span>
+            </div>
+            <!-- Copyright -->
+        </footer>
+
+        <!-- MDB -->
+        <script type="text/javascript" src="js/mdb.min.js"></script>
+        <!-- Custom scripts -->
+        <script src="myjs/background.js"></script>
+        <script src="myjs/nav.js"></script>
+    </body>
 
 </html>
